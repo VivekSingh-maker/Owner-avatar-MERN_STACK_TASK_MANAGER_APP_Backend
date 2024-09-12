@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://velvety-dragon-0569de.netlify.app/"],
+    origin: ["https://velvety-dragon-0569de.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
